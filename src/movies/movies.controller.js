@@ -1,6 +1,5 @@
 const service = require("./movies.service");
 const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
-const { error } = require("node:console");
 
 async function movieExists(request, response, next) {
   // TODO: Add your code here.
